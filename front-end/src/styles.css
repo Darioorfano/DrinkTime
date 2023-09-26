@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Font*/
+*{
+  font-family: 'Jost', sans-serif;
+}
+
+.tituloprincipal{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size:60px;
+}
+
+.tituloLogo{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size:55px;
+  color: #F75C03;
+  text-decoration: none !important;
+}
+
+.subtitulo{
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.texto{
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none !important;
+}
+
+.minitexto{
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size:13px;
+  text-decoration: none !important;
+}
+
+.BEEGTEXT{
+  font-weight: 600;
+}
+.destacados{
+  color:#8A0000;
+}
+
+.formato-descripcion{
+  color:grey;
+}
+.tamamo-descripcion{
+  font-size: 30px;
+}
+
+.tamamo-descripcion-sub{
+  font-size: 20px;
+}
+.contenido-principal{
+  background-color: #F3F3F3;
+}
+
+/*Botones*/
+
+.botonUno{
+  border:2px solid #F75C03 !important;
+  background-color:#F75C03 !important;
+  color:white !important;
+}
+.botonUno:hover{
+  background-color: #ec6b20 !important;
+  border:2px solid #ec6b20 !important;
+  color:#353434 !important;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
